@@ -1,12 +1,12 @@
 #include<stdio.h>
-#include<string.h>
 
-/*
- * This is a c program using puts function
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char st1[] = "\"Programming is like building a multilingual puzzle";
-puts(st1);
-return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
