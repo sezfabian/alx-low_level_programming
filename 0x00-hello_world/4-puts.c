@@ -2,6 +2,8 @@
 #include<string.h>
 
 /*
+ * main - Entry point
+ * Return: Always 0 (Success)
  * This is a c program using puts function
  */
 int main(void)
