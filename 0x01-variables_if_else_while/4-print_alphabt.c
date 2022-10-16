@@ -12,7 +12,7 @@ int num;
 
 for (num = 0; num <= 26 ; num++)
 {
-if(str[num] = 'q' || str[num] = 'e')
+if(str[num] == 'q' || str[num] == 'e')
 continue;
 putchar(str[num]);
 }
