@@ -9,13 +9,11 @@ int main(void)
 {
    char str[] = "abcdefghijklmnopqrstuvwxyz";
    int num;
-   
-   for( num = 0; num <= 26 ; num++)
+
+   for(num = 0; num <= 26 ; num++ )
    {
       putchar(str[num]);
    }
-   
-   putchar('\n');
-   
-   return 0;
+
+   return (0);
 }
