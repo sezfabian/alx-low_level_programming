@@ -10,7 +10,7 @@ int main(void)
 char str[] = "abcdefghijklmnopqrstuvwxyz\n";
 int num;
 
-for( num = 0; num <= 27 ; num++)
+for (num = 0; num <= 26 ; num++)
 {
 putchar(str[num]);
 }
