@@ -5,17 +5,17 @@
  *
  *Return: Always 0 - successful
  */
- int main(void)
- {
+int main(void)
+{
    char str[] = "abcdefghijklmnopqrstuvwxyz";
    int num;
    
-   for( num = 0; num < 27 ; num++)
+   for( num = 0; num <= 26 ; num++)
    {
-     putchar(str[num]);
+      putchar(str[num]);
    }
    
    putchar('\n');
    
    return 0;
- }
+}
