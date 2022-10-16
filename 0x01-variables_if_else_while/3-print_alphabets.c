@@ -14,12 +14,12 @@ int num2;
 
 for (num1 = 0; num1 <= 26 ; num1++)
 {
-putchar(str1[num]);
+putchar(str1[num1]);
 }
   
 for (num2 = 0; num2 <= 26 ; num2++)
 {
-putchar(str2[num]);
+putchar(str2[num2]);
 }
 
 return (0);
