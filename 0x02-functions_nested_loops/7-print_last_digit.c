@@ -17,6 +17,6 @@ n = (n * (-1));
 }
 
 ld = n % 10;
-_putchar(ld);
+_putchar(ld + '0';
 return (ld);
 }
