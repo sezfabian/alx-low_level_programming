@@ -24,7 +24,7 @@ putchar(hourms + '0');
 putchar(hourls + '0');
 putchar(':');
 putchar(minms + '0');
-putchar(minls +'0');
+putchar(minls + '0');
 putchar('\n');
 }
 }
