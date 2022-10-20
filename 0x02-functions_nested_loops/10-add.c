@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * ADD - adds two integers
+ * add - adds two integers
  *
  * @a : first integer
  *
@@ -15,6 +15,6 @@ int add(int a, int b)
 int sum;
 
 sum = a + b;
-  
+
 return (sum);
 }
