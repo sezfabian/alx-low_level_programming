@@ -19,6 +19,7 @@ if (n == 98)
 break;
 }
 putchar(',');
+putchar(' ');
 n++;
 }
 }
@@ -32,6 +33,7 @@ if (n == 98)
 break;
 }
 putchar(',');
+putchar(' ');
 n--;
 }
 }
