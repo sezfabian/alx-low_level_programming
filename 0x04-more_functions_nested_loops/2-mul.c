@@ -1,4 +1,4 @@
-include<stdio.h>
+#include<stdio.h>
 
 /**
  * mul - finds multiple of two integers
@@ -8,7 +8,6 @@ include<stdio.h>
  *
  * Return: multiples of two integers.
  */
-
 int mul(int a, int b)
 {
 return (a * b);
