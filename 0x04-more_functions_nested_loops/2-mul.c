@@ -6,13 +6,10 @@ include<stdio.h>
  * @a : integer one
  * @b : integer two
  *
- * Return: 1 for digit, 0 otherwise.
+ * Return: multiples of two integers.
  */
 
 int mul(int a, int b)
 {
-int m;
-m = a * b;
-
-return (m);
+return (a * b);
 }
