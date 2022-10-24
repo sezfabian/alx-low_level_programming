@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "main.h"
 
 /**
  * print_most_numbers - prints number 0 to 9
@@ -9,11 +10,11 @@ void print_most_numbers(void)
 {
 int a;
 
-for (a = 48; a <= 57; ++a)
+for (a = 0; a <= 9; ++a)
 {
-if (a == 50 || a == 52)
+if (a == 2 || a == 4)
 continue;
-putchar(a);
+_putchar(a % 10 + '0');
 }
-putchar('\n');
+_putchar('\n');
 }
