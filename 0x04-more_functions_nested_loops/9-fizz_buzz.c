@@ -23,7 +23,7 @@ else if (n % 3 != 0)
 {
 printf("%d", n);
 }
-putchar(' ');
+printf(" ");
 }
 printf("Buzz\n");
 
