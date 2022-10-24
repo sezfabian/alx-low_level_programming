@@ -1,17 +1,18 @@
 #include<stdio.h>
-
+#include "main.h"
 
 /**
- * print_line - prints line on terminal
+ * print_diagonal - prints diagonal line on terminal
  *
  * @n : no of times '\' is printed
  *
  * Return: 0 always - sucess.
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 int count;
 int a;
+
 for (a = 1; a <= n; ++a)
 {
 for (count = 2; count <= a; ++count)
