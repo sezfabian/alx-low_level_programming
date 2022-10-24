@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "main.h"
 
 /**
  * void more_numbers(void) - prints number 0 to 14 times 10
