@@ -1,3 +1,10 @@
+#include<stdio.h>
+
+/**
+ * void more_numbers(void) - prints number 0 to 14 times 10
+ *
+ * Return: 0 always - sucess.
+ */
 void more_numbers(void)
 {
 int a;
