@@ -15,20 +15,27 @@ int b;
 int h;
 int l = size;
 
+if (size > 0)
+{
 for (h = 1; h <= size; ++h)
 {
 for (b = 0; b < size; ++b)
 {
 if (b < l - 1)
 {
-putchar(' ');
+_putchar(' ');
 }
 else
 {
-putchar('#');
+_putchar('#');
 }
 }
 --l;
-putchar('\n');
+_putchar('\n');
+}
+}
+else
+{
+_putchar('\n');
 }
 }
