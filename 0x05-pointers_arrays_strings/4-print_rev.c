@@ -18,7 +18,7 @@ for (n = 0; s[n]; n++)
 {
 count++;
 }
-for (n = count; n > 0; n--)
+for (n = count; n >= 0; n--)
 {
 putchar(s[n]);
 }
