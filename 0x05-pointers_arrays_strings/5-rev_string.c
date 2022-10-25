@@ -18,7 +18,7 @@ char str[n];
 for (n = 0; s[n]; n++)
 {
 count++;
-str[n] = s[n];
+str[count] = s[count];
 }
 
 for (n = count; n >= 0; n--)
