@@ -4,7 +4,7 @@
  *
  * @s : string
  *
- * Return : always 0 - sucess
+ * @n : return value..count of length
  */
 
 int _strlen(char *s)
