@@ -11,5 +11,9 @@
 
 void _puts(char *str)
 {
-printf(str);
+int n;
+for (n = 0; str[n]; n++)
+{
+putchar(str[n]);
+}
 }
