@@ -16,4 +16,5 @@ for (n = 0; str[n]; n++)
 {
 putchar(str[n]);
 }
+putchar('\n');
 }
