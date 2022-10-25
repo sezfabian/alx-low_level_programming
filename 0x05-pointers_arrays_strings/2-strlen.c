@@ -4,7 +4,7 @@
  *
  * @s : string
  *
- * @n : return value..count of length
+ * Return: void answer is correct
  */
 
 int _strlen(char *s)
