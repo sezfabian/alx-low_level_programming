@@ -8,7 +8,7 @@
  *
  * @src : input string
  *
- * Return : dest correct
+ * Return: dest
  */
 
 char *_strcpy(char *dest, char *src)
