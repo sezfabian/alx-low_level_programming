@@ -1,27 +1,32 @@
 #include<stdio.h>
+#include<string.h>
 
 /**
  * rev_string - returns string in reverse
  *
  * @s : string
  *
- *
  * Return : void, correct
  */
 
 void rev_string(char *s)
 {
-int n;
-int count = -1;
+int n = 0;
 int m = 0;
+int l;
+char str1[12];
 
-for (n = 0; s[n]; n++)
+l = strlen(s);
+
+for (n=0; n <= l; n++)
 {
-count++;
+str1[n] = s[n];
 }
-char str[count];
-for (n = 0; n <= count; n++)
+
+for (n = l+1; n >= 0; n--)
 {
-str[n] = s[n];
+s[m] = str1[l-1];
+m++;
+l--;
 }
-printf(str);
+}
