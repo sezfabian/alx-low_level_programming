@@ -2,7 +2,7 @@
 #include<string.h>
 
 /**
- * puts2 - prints every other character of a string, starting with the first
+ * puts2 - prints every other character of a string
  *
  * @str : string
  *
@@ -13,7 +13,7 @@ void puts2(char *str)
 {
 int n;
 int l = strlen(str);
-for (n = 0; n <= l; n++)
+for (n = 0; n < l; n++)
 {
 putchar(str[n]);
 n++;
