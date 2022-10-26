@@ -19,3 +19,4 @@ putchar(str[n]);
 n++;
 }
 putchar('\n');
+}
