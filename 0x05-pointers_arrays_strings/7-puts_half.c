@@ -17,13 +17,13 @@ int l = strlen(str);
 
 if (l % 2 != 0)
 {
-h = (l + 1) /2;
+h = (l + 1) / 2;
 }
 else
 {
 h = l / 2;
 }
-for(n=h; n < l; n++)
+for (n = h; n < l; n++)
 {
 putchar(str[n]);
 }
