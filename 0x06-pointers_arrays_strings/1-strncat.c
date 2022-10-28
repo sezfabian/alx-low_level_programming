@@ -9,7 +9,7 @@
  *
  * @n: number of characters to be added
  *
- * Return:  returns dest
+ * Return:  *dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
