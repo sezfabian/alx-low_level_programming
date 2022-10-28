@@ -1,33 +1,34 @@
 #include "main.h"
 
 /**
- * _strncat - two words
- * @dest : pointer to char param
- * @src : pointer to char param
- * @n : int parameter
- * Return: *dest
+ * *_strcat - concatenates two strings for n integers
+ *
+ * @dest: string 1
+ *
+ * @src: string 2
+ *
+ * @n: number of characters to be added
+ *
+ * Return:  returns dest
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
-	int m;
-	int i;
+int a;
+int b;
 
-	m = 0;
+a = 0;
+b = 0;
 
-	for (i = 0; i < 1000; i++)
-	{
-		if (dest[i] == '\0')
-		{
-			break;
-		}
-		m++;
-	}
-
-	for (i = 0; src[i] != '\0' && i < n; i++)
-	{
-		dest[m + i] = src[i];
-	}
-	dest[m + i] = '\0';
-	return (dest);
+while (dest[a] != '\0')
+{
+a++;
+}
+while (b < n && src[b] != '\0')
+{
+dest[a] = src[b];
+a++;
+b++;
+}
+dest[a] = '\0';
+return (dest);
 }
