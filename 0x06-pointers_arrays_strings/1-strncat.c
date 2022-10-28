@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat - concatenates two strings for n integers
+ * _strcat - concatenates two strings for n integers
  *
  * @dest: string 1
  *
