@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strncat - concatenates two 
- * @dest : pointer to char string
- * @src : pointer to char string
- * @n : int number of characters
+ * _strncat - combines two strings
+ * @dest : pointer to string
+ * @src : pointer to string
+ * @n : int number of characters to add
  * Return: *dest
  */
 char *_strncat(char *dest, char *src, int n)
