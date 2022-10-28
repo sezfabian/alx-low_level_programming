@@ -1,15 +1,11 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings for n integers
- *
- * @dest: string 1
- *
- * @src: string 2
- *
- * @n: number of characters to be added
- *
- * Return:  *dest
+ * _strncat - two words
+ * @dest : pointer to char param
+ * @src : pointer to char param
+ * @n : int parameter
+ * Return: *dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
