@@ -1,10 +1,11 @@
 #include<stdio.h>
 /**
- * string_toupper - lower to upper
+ * string_toupper - lower to uppercase
  * @s1: pointer to string
- * 
- * Return: *s1 uppercase string
+ *
+ * Return: *s1
  */
+
 
 char *string_toupper(char *s1)
 {
