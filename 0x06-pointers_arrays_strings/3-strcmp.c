@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * _strncmp - compares srtings
- * @s1 : pointer to  string 1
- * @s2 : pointer to  string 2
- * Return: N - comparason value
+ * _strcmp - compares two strings
+ * @s1 : pointerto string1
+ * @s2 : pointer to string2
+ * Return: N success
  */
-
 int _strcmp(char *s1, char *s2)
 {
 int a = 0;
