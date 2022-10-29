@@ -1,4 +1,4 @@
-#include "main.h"
+#include<stdio.h>
 
 /**
  * leet - encode
@@ -11,15 +11,15 @@ int a;
 int j;
 char b[] = "ol_ea__t";
 
-for (a = 0; s[a] != '\0'; a++)
+for (a = 0; s1[a] != '\0'; a++)
 {
-for (a = 0; b[a] != '\0'; a++)
+for (j = 0; b[j] != '\0'; j++)
 {
-if (s[a] == b[j] || s[a] == (b[j] - 32))
+if (s1[a] == b[j] || s1[a] == (b[j] - 32))
 {
-s[a] = j + '0';
+s1[a] = j + '0';
 }
 }
 }
-return (s);
+return (s1);
 }
