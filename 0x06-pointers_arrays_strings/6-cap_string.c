@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 /**
  * cap_string - uppercase each word
  * @s1: pointer to string
@@ -7,16 +8,14 @@
  */
 char *cap_string(char *s1)
 {
-	int a, j;
-	char delimeters[] = " \t\n,;.!?\"(){}";
+int a;
 
-	for (a = 0; s1[a] != '\0'; i++)
-	{
-		if (s1[0] >= 97 && s1[0] <= 122)
-			s1[0] -= 32;
-		for (j = 0; delimeters[j] != '\0'; j++)
-			if (s1[a] == delimeters[j] && s1[a + 1] >= 97 && s1[a + 1] <= 122)
-				s1[a + 1] -= 32;
-	}
-	return (s1);
+for (a = 0; s1[a] != '\0'; a++)
+{
+if ((a == 0 || s1[a - 1] == ' ' || s1[a-1] == '\n' || s1[a-1] == '\t' || s1[a-1] == '.') && (s1[a] >= 'a' && s1[a] <= 'z'))
+{
+s1[a] -= 32;
+}
+}
+return (s1);
 }
