@@ -4,9 +4,9 @@
  * _strncmp - compares srtings
  * @s1 : pointer to  string
  * @s2 : pointer to  string
- * Return: return *n
+ * Return: return N
  */
- 
+
 int _strcmp(char *s1, char *s2)
 {
 int a = 0;
