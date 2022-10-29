@@ -8,7 +8,7 @@
 char *cap_string(char *s1)
 {
 	int a;
-	
+
 	for (a = 0; s1[a] != '\0'; a++)
 	{
 		if ((a == 0 || s1[a - 1] == ' ' || s1[a-1] == '\n' || s1[a-1] == '\t') && (s1[a] >= 'a' && s1[a] <= 'z'))
