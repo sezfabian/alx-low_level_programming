@@ -2,9 +2,9 @@
 
 /**
  * _strncmp - compares srtings
- * @s1 : pointer to  string
- * @s2 : pointer to  string
- * Return: return N
+ * @s1 : pointer to  string 1
+ * @s2 : pointer to  string 2
+ * Return: N - comparason value
  */
 
 int _strcmp(char *s1, char *s2)
