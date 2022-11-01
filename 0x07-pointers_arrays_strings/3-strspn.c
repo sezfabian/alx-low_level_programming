@@ -2,7 +2,7 @@
 #include<string.h>
 
 /**
- * _strspn - number of bytes in the initial segment cosisting of bytes from string 2
+ * _strspn - number of bytes in the initial segment cosisting of bytes from string
  *
  * @s: string to be checked
  * @accept: string with bytes to be checked
@@ -20,6 +20,11 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		a++;
 	}
+	if (a % 2 != 0)
+	{
+		a++;
+	}
+
 	for (b = 0; b <= a / 2; b++)
 	{
 		for (c = 0; accept[c] != '\0'; c++)
