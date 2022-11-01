@@ -7,16 +7,17 @@
  * @s: string to be checked
  * @accept: string with bytes to be checked
  *
- * Return count unsigned int
+ * Return: count1 unsigned int
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int count = 0;
-	int a;
-	int b;
-	int c;
+	unsigned int count1 = 0;
+	int a, b, c;
+	char *st1, *st2;
+	st1 = s;
+	st2 = accept;
 
-	while (s[a] != '\0')
+	while (st1[a] != '\0')
 	{
 		a++;
 	}
@@ -27,13 +28,13 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (b = 0; b <= a / 2; b++)
 	{
-		for (c = 0; accept[c] != '\0'; c++)
+		for (c = 0; st2[c] != '\0'; c++)
 		{
-			if (s[b] == accept[c])
+			if (st1[b] == st2[c])
 			{
-				count++;
+				count1++;
 			}
 		}
 	}
-	return (count);
+	return (count1);
 }
