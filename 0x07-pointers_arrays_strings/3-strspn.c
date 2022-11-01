@@ -14,7 +14,7 @@ unsigned int _strspn(char *s, char *accept)
 	unsigned int count1 = 0;
 	int a, b, c;
 	char *st1, *st2;
-	
+
 	st1 = s;
 	st2 = accept;
 
