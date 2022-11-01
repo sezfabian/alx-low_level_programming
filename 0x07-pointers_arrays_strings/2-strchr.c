@@ -15,8 +15,10 @@ char *_strchr(char *s, char c)
 	for (a = 0; s[a] != '\0'; a++)
 	{
 		if (s[a] == c)
-			p = &s[a - 1];
+		{
+			p = &s[a];
+			break;
+		}
 	}
 	return (p);
 }
-
