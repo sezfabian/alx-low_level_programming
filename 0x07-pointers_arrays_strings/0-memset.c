@@ -7,9 +7,8 @@
   * @b: constant byte
   * @n: firsy number of bytes
   *
-  * Returns s
+  * Return: s string
   */
-
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int c;
@@ -19,4 +18,3 @@ char *_memset(char *s, char b, unsigned int n)
 	}
 	return (s);
 }
-
