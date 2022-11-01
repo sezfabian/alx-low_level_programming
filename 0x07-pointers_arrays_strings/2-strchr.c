@@ -6,7 +6,7 @@
  * @s: pointer to string
  * @c: character to be located
  *
- * Return: p.
+ * Return: s.
  *
  */
 char *_strchr(char *s, char c)
@@ -17,7 +17,7 @@ char *_strchr(char *s, char c)
 	{
 		if (s[a] == c)
 		{
-			return (s + a);
+			return (&s[a]);
 			break;
 		}
 	}
