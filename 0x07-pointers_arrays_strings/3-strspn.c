@@ -2,7 +2,7 @@
 #include<string.h>
 
 /**
- * _strspn - number of bytes in the initial segment cosisting of bytes from string
+ * _strspn - function returns lenght of prefix substring
  *
  * @s: string to be checked
  * @accept: string with bytes to be checked
@@ -14,14 +14,11 @@ unsigned int _strspn(char *s, char *accept)
 	unsigned int count1 = 0;
 	int a, b, c;
 	char *st1, *st2;
+	
 	st1 = s;
 	st2 = accept;
 
 	while (st1[a] != '\0')
-	{
-		a++;
-	}
-	if (a % 2 != 0)
 	{
 		a++;
 	}
