@@ -13,7 +13,7 @@ char *_strstr(char *haystack, char *needle)
 	int a, b = 0;
 	char *st1, *st2, *p;
 
-	p = NULL;
+	p = 0;
 	st1 = haystack;
 	st2 = needle;
 
