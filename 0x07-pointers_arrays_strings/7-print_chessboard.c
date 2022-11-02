@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/**                                                               
+/**
  * print_chessboard - print multidimensional array
  *
  * @a: multidim array
