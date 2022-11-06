@@ -36,10 +36,8 @@ int is_palindrome(char *s)
 	int a = 0;
 	int l = 0;
 
-	while (s[l] != '\0')
-	{
-		l++;
-	}
+	l = strlen(s);
+
 	return (pal(s, a, l - 1));
 }
 
