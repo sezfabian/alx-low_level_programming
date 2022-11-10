@@ -13,7 +13,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *arr;
-	unsigned int l1, l2, c, l;
+	unsigned int l1 = 0, l2 = 0, c, l;
 
 	if (s1 != NULL)
 		for (l1 = 0; s1[l1] != '\0'; l1++)
