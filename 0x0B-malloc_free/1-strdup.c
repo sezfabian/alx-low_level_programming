@@ -25,6 +25,9 @@ char *_strdup(char *str)
 
 	while (l--)
 		arr[l] = str[l];
+
+	if (arr == NULL)
+		return (NULL);
 	return (arr);
 }
 
