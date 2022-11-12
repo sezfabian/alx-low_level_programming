@@ -1,25 +1,40 @@
 #include <stdlib.h>
 
-/**
- * malloc_checked -  that allocates memory using malloc
+/*
+ * string_nconcat -  concatenates
  *
- * @b: size of memory to be allocated
+ * @s1: string one
+ * @s2: string twp
+ * @n: number of chars to concat
  *
  * Return: pointer to heap.
+ *
  */
 
-void *malloc_checked(unsigned int b)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
+	char *str;
+	unsigned int a, b, c;
 
-	int *ptr;
+	for(c = 0; s1[c] != '\n'; c++)
+		;
 
-	ptr = malloc(b);
+	str = malloc(c + n + 1);
 
-	if (ptr == 0)
+	if (str == 0)
 	{
-		exit(98);
+		return(0);
 	}
 
-	return (ptr);
+	for(a = 0; a < c + n; a++)
+	{
+		if (a < c)
+			str[a] = s1[a];
+		else
+			str[a] = s2[a - c];
+
+	}
+	str[a] = '\0';
+	return (str);
 }
 
