@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * Main - print file compiled from
+ * main - print file compiled from
  *
  * Return: 0 success
  */
