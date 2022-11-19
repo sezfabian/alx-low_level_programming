@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdarg.h>
+#include <string.h>
 
 /**
  * print_all - prints anything.
@@ -13,14 +14,11 @@ void print_all(const char * const format, ...)
 	char *str;
 	va_list arguments;
 
+	va_start(arguments, format);
+
 	while (format[n] != '\0')
 	{
-		n++;
-	}
-	va_start(arguments, format);
-	while (a < n)
-	{
-	switch (format[a])
+	switch (format[n])
 	{
 		case 'c':
 		stat = 1;
@@ -40,20 +38,19 @@ void print_all(const char * const format, ...)
 		case 's':
 		stat = 1;
 		str = va_arg(arguments, char*);
-		if (str != NULL)
-			printf("%s", str);
-		else
+		if(strlen(str) == 0 || str == NULL)
 			printf("%s", "nil");
+		else
+			printf("%s", str);
 		break;
 
 		default:
 			stat = 0;
 	}
-	if (a < n - 1 && stat == 1)
+	if (format[n + 1] != '\0' && stat == 1)
 		printf("%s", ", ");
-	a++;
+	n++;
 	}
 	printf("%c", '\n');
 	va_end(arguments);
 }
-
