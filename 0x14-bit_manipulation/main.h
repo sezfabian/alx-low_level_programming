@@ -3,5 +3,7 @@
 
 unsigned int binary_to_uint(const char *b);
 unsigned int _pow(unsigned int base, int index);
+void print_binary(unsigned long int n);
+int _putchar(char c);
 
 #endif
